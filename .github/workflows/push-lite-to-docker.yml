@@ -26,4 +26,4 @@ jobs:
           file: Dockerfile.lite
           push: true
           platforms: "linux/amd64"
-          tags: Amndeep7/heimdall-lite:latest
+          tags: amndeep7/heimdall-lite:latest
