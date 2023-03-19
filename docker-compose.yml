@@ -13,7 +13,7 @@ services:
     expose:
       - "5432"
   server:
-    image: mitre/heimdall2:release-latest
+    image: ghcr.io/amndeep7/heimdall2:latest
     restart: unless-stopped
     environment:
       - NODE_ENV=production
